@@ -69,3 +69,25 @@
     font-family: 'Muli',sans-serif;
     background-color: #DFDFDF;
 }
+
+.amexCard {
+    width: 620px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.amex {
+    width: 150px;
+    padding-right: 150px;
+}
+
+.card {
+    width: 95px;
+    padding-right: 10px;
+}
+
+.account {
+    text-align: right;
+    font-size: small;
+    margin-right: 8px;
+}
