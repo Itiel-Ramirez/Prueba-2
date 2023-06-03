@@ -4,6 +4,11 @@
 	margin-right: auto;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .title {
     text-align: center;
     font-weight: bold;
@@ -29,12 +34,27 @@
 .odd {
     text-align: center;
     color: #666666;
-    font-size: 15px;
+    font-size: 12px;
+    padding: 15px;
+    letter-spacing: 3px;
 }
 
 .even {
     background-color: #1A1A1A;
     color: #f4f4f4;
     font-size: 10px;
-    width: max-content;
+    text-align: center;
+    background-color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.seeBtn {
+    text-align: right;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    font-style: normal;
+    font-family: 'Muli',sans-serif;
+    background-color: #DFDFDF;
 }
