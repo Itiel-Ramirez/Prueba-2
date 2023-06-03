@@ -36,22 +36,25 @@
     color: #666666;
     font-size: 12px;
     padding: 15px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .even {
-    /*background-color: #1A1A1A;*/
     color: #f4f4f4;
     font-size: 10px;
     text-align: center;
     background-color: #333333;
-    padding: 10px;
-    margin-left: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 140px;
     display: inline-block;
 }
 
 .number{
-    color: white;
+    font-family: Helvetica;
+    color: #333333;
+    font-size: 12px;
     padding: 10px;
     margin-left: 10px;
     display: inline-block;
@@ -65,13 +68,4 @@
     font-style: normal;
     font-family: 'Muli',sans-serif;
     background-color: #DFDFDF;
-}
-
-.try {
-    color: white;
-    background-color: #333333;
-    font-size: 10px;
-    padding: 10px;
-    margin-left: 15%;
-    
 }
