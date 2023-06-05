@@ -313,6 +313,7 @@
 
 .imgApple {
     width: 160px;
+    margin-right: 10px;
 }
 
 .imgAndroid {
@@ -331,4 +332,63 @@
     font-family: 'Muli',sans-serif;
     margin-bottom: 7.5px;
     color: #777576;
+}
+
+.btnAddBg {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 1px;
+    border-style: hidden;
+    background-color: #00176A;
+    color: white;
+    font-size: medium;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: 'Muli',sans-serif;
+}
+
+.terms, .info {
+    color: #646464;
+    font-family: 'Muli',sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    background-color: #AFAFAF;
+    padding: 35px;
+}
+
+.info {
+    background-color: #D6D6D6;
+}
+
+.links {
+    color: #646464;
+}
+
+@media (min-width: 310px) {
+    .box {
+        display: flexbox;
+    }
+    
+}
+
+@media (max-width: 619.98px) {
+    .seeBtn {
+        text-align: left;
+        padding-left: 7.5px;
+    }
+
+    .amex {
+        padding-right: 30px;
+        margin-left: 30px;
+    }
+    
+    .card {
+        margin-right: 40px;
+    }
+
+    
+    
 }
