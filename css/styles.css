@@ -230,6 +230,7 @@
 .textIcons {
     background-color: #D6D6D3;
     font-family: 'Muli',sans-serif;
+    font-weight: 500;
     width: 190px;
     height: 60px;
     font-size: 12px;
@@ -245,6 +246,7 @@
 .textSec {
     background-color: #D6D6D3;
     font-family: 'Muli',sans-serif;
+    font-weight: 500;
     width: 190px;
     height: 60px;
     font-size: 12px;
@@ -287,4 +289,46 @@
     font-size: 8px;
     font-weight: 800;
     font-family: 'Muli',sans-serif;
+}
+
+.life {
+    width: 620px;
+    margin-top: 50px;
+}
+
+.banner {
+    padding-top: 15px;
+}
+
+.tabApps {
+    width: 620px;
+    margin-top: 25px;
+}
+
+.celAmex {
+    width: 120px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.imgApple {
+    width: 160px;
+}
+
+.imgAndroid {
+    width: 160px;
+}
+
+.download {
+    font-size: 14px;
+    font-family: 'Muli',sans-serif;
+    margin-top: 7.5px;
+    margin-bottom: 5px;
+    color: #00145C;
+}
+
+.consult {
+    font-family: 'Muli',sans-serif;
+    margin-bottom: 7.5px;
+    color: #777576;
 }
