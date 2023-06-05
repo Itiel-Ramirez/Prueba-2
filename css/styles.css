@@ -392,6 +392,14 @@
         display: none !important;
     }
 
+    .iconsBenef {
+        display: block !important;
+    }
+
+    .iconsBenefResp {
+        display: none !important;
+    }
+
     
 }
 
@@ -405,6 +413,10 @@
     }
 
     .amexSolicitud {
+        display: none;
+    }
+
+    .iconsBenef {
         display: none;
     }
 
@@ -504,5 +516,77 @@
         padding-left: 18px;
         padding-right: 18px;
         padding-bottom: 38px;
+    }
+
+    .iconsBenefResp {
+        width: 620px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    
+    .imgCoffeeResp, .imgCardResp, .imgPlaneResp {
+        width: 350px;
+    }
+    
+    .textIconsResp {
+        background-color: #D6D6D3;
+        font-family: 'Muli',sans-serif;
+        font-weight: 500;
+        width: 330px;
+        height: 150px;
+        font-size: 22px;
+        margin-left: 140px;
+        margin-bottom: 25px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        padding-left: 4px;
+        padding-right: 4px;
+        text-align: center;
+        color: #333333;
+    }
+    
+    .textSecResp {
+        background-color: #D6D6D3;
+        font-family: 'Muli',sans-serif;
+        font-weight: 500;
+        width: 330px;
+        height: 140px;
+        font-size: 22px;
+        margin-left: 140px;
+        margin-bottom: 25px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        padding-left: 4px;
+        padding-right: 4px;
+        text-align: center;
+        color: #333333;
+    }
+    
+    .textValidResp {
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+        color: #333333;
+    }
+
+    .btnAddBgResp {
+        padding-left: 95px;
+        padding-right: 95px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 1px;
+        border-style: hidden;
+        background-color: #00176A;
+        color: white;
+        font-size: 30px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        margin-bottom: 10px;
+        font-family: 'Muli',sans-serif;
+    }
+    
+    .btnIconsResp {
+        text-align: center;
+        padding-top: 40px;
     }
 }
